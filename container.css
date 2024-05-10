@@ -1,0 +1,82 @@
+.breadcrumb, .pan1{
+    margin: 0px 0px 0px 45px ;
+}
+
+.breadcrumb {
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    color: white;
+  }
+
+.nav-link:hover{
+    color: rgb(255, 131, 131);
+  }
+
+
+.pg {
+    width: 547px;
+    height: auto;
+    opacity: 1;
+}
+
+.pan1 img{
+    border: 2px solid gainsboro;
+}
+
+.pan{
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    width: 500px;
+    margin-right: 230px;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .breadcrumb, .pan1 {
+        margin: 0px;
+        margin-left: 15px;
+    }
+    .breadcrumb{
+        margin-bottom: 40px;
+        margin-left: 10px;
+    }
+
+    .pan {
+        width: 20%;
+        margin-left: 0px;
+        margin-right: 150px;
+        text-align: center;
+    }
+
+    .pg {
+        width: 50%;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 520px) {
+
+    .breadcrumb, .pan1 {
+        margin: 0px;
+    }
+    .breadcrumb{
+        margin-bottom: 40px;
+        margin-left: 10px;
+    }
+
+    .pan {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    .pg {
+        width: 100%;
+        height: auto;
+    }
+
+}
